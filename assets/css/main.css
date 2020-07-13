@@ -1,5 +1,6 @@
 html {
    font-size: 18px;
+   scroll-behavior: smooth;
 }
 
 .header {
@@ -64,7 +65,7 @@ html {
 }
 
 .toggle .line-3 {
-	transform: translateY(-7.6px) rotate(-135deg);
+	transform: translateY(-6.89px) rotate(-135deg);
 }
 
 .hero-section {
