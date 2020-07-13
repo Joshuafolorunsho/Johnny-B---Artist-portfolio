@@ -86,7 +86,13 @@ h3 span {
    border-bottom: 3px solid #000;
 }
 
+.testimonial span {
+   border-bottom: 3px solid #fff;
+}
 
+.pt-lg {
+   padding-top: 3rem !important;
+}
 
 .about,
 .concerts {
