@@ -1,5 +1,6 @@
 html {
    font-size: 18px;
+   scroll-behavior: smooth;
 }
 
 .header {
@@ -64,7 +65,7 @@ html {
 }
 
 .toggle .line-3 {
-	transform: translateY(-7.6px) rotate(-135deg);
+	transform: translateY(-6.89px) rotate(-135deg);
 }
 
 .hero-section {
@@ -77,16 +78,28 @@ html {
 }
 
 .btn-wine {
-   background: #F43757;
+   background-color: #F43757;
    color: #fff;
    border-radius: 30px;
+   transition: ease-in .3s;
+}
+
+.btn-wine:hover {
+   background-color: #dc324e;
+   color: #fff;
 }
 
 h3 span {
    border-bottom: 3px solid #000;
 }
 
+.testimonial span {
+   border-bottom: 3px solid #fff;
+}
 
+.pt-lg {
+   padding-top: 3rem !important;
+}
 
 .about,
 .concerts {
